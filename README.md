@@ -1,4 +1,4 @@
-# dsci101_distribution
+# DSCI101 class material
 
 Assignments and files to be distributed to students at class onset. All homework, lab and project notebooks are included, along with their supporting files and notebook tests.
 
