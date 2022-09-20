@@ -1,3 +1,4 @@
+OK_FORMAT = True
 
 test = {
   'name': 'q2_2_7',

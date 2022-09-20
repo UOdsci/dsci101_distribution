@@ -1,3 +1,5 @@
+OK_FORMAT = True
+
 test = {   'name': 'q1_13',
     'points': 1,
     'suites': [   {   'cases': [   {   'code': '>>> 1 <= yanay_likely <= 2\n'

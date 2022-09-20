@@ -1,3 +1,5 @@
+OK_FORMAT = True
+
 test = {   'name': 'q2_5',
     'points': 1,
     'suites': [   {   'cases': [   {   'code': '>>> type(sum_of_birth_years) == int\nTrue',

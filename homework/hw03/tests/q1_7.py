@@ -1,3 +1,5 @@
+OK_FORMAT = True
+
 test = {   'name': 'q1_7',
     'points': 1,
     'suites': [   {   'cases': [   {   'code': '>>> # It looks like your table '

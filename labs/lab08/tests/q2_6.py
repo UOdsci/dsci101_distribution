@@ -1,3 +1,5 @@
+OK_FORMAT = True
+
 test = {   'name': 'q2_6',
     'points': 1,
     'suites': [   {   'cases': [   {   'code': '>>> 1 <= cutoff_ten_percent <= '

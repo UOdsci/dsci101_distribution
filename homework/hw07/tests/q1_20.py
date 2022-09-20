@@ -1,3 +1,5 @@
+OK_FORMAT = True
+
 test = {   'name': 'q1_20',
     'points': 1,
     'suites': [   {   'cases': [   {   'code': '>>> -0.75 <= '

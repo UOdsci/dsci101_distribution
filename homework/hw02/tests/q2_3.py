@@ -1,3 +1,5 @@
+OK_FORMAT = True
+
 test = {   'name': 'q2_3',
     'points': 1,
     'suites': [   {   'cases': [   {   'code': '>>> type(index_of_last_element) == int\nTrue',

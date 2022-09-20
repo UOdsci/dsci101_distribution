@@ -1,3 +1,5 @@
+OK_FORMAT = True
+
 test = {
   'name': 'q25',
   'points': 1,
@@ -14,8 +16,8 @@ test = {
         },
         {
           'code': r"""
-          >>> list(farmers_markets_locations_by_latitude.column('y').take(range(3)))
-          [64.86275, 64.8459, 64.844414]
+          >>> np.isclose(list(farmers_markets_locations_by_latitude.column('y').take(range(3))), [64.86275, 64.8459, 64.844414])
+          array([ True,  True,  True], dtype=bool)
           """,
           'hidden': False,
           'locked': False

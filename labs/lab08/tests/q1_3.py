@@ -1,3 +1,5 @@
+OK_FORMAT = True
+
 test = {   'name': 'q1_3',
     'points': 1,
     'suites': [   {   'cases': [   {   'code': '>>> 40 <= drum_lower_bound <= '

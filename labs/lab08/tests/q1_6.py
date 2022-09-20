@@ -1,3 +1,5 @@
+OK_FORMAT = True
+
 test = {   'name': 'q1_6',
     'points': 1,
     'suites': [   {   'cases': [   {   'code': '>>> -5 <= diff_lower_bound <= '

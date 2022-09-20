@@ -1,3 +1,5 @@
+OK_FORMAT = True
+
 test = {
   'name': 'q7_1',
   'points': 1,

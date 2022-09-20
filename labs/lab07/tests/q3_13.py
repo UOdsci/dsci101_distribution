@@ -1,3 +1,5 @@
+OK_FORMAT = True
+
 test = {   'name': 'q3_13',
     'points': 1,
     'suites': [   {   'cases': [   {   'code': '>>> 1 <= answer_313 <= 4\n'
