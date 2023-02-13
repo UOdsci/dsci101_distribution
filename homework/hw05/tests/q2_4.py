@@ -16,7 +16,7 @@ test = {
         },
         {
           'code': r"""
-          >>> 0 <= UO_wins_q1_and_q3 <= 38
+          >>> 0 <= q1_q3_wins <= 38
           True
           """,
           'hidden': False,

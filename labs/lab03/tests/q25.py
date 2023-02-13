@@ -16,8 +16,8 @@ test = {
         },
         {
           'code': r"""
-          >>> np.isclose(list(farmers_markets_locations_by_latitude.column('y').take(range(3))), [64.86275, 64.8459, 64.844414])
-          array([ True,  True,  True], dtype=bool)
+          >>> np.isclose(farmers_markets_locations_by_latitude.take(range(3)).column('y'), np.array([64.86275, 64.8459, 64.844414])).all()
+          True
           """,
           'hidden': False,
           'locked': False
